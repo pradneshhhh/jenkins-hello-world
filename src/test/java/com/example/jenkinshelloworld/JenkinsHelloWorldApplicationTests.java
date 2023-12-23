@@ -17,7 +17,8 @@ public class JenkinsHelloWorldApplicationTests {
 
 	@Test 
 	public void contextLoads() {
-		logger.info("Test case executing...");
+		logger.info("[1] Test case executing...");
+		logger.info("[2] Test case executing...");
 		assertEquals(true, true);
 	}
 }
